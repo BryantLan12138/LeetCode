@@ -1,6 +1,6 @@
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
-        //horizatally scan
+        //horizontally scan
         String prefix = strs[0];
         for(int i = 0; i < strs.length; i++) {
             //check if strs[i] contains exactly strs[0] which is prefix
